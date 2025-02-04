@@ -1,0 +1,28 @@
+TO FIND THE LENGTH OF THE STRING WITHOUT USING INBUILD FUNCTION
+#include <stdio.h>
+int main() {
+  char str[20];
+  scanf("%s",str);
+  printf("%s",str);
+  int c=0;
+  for(int i=0;str[i]!='\0';i++)
+  {
+      c++;
+  }
+  printf("\nLength of the string is :%d",c);
+    return 0;
+}
+
+TO FIND THE LENGTH OF THE STRING WITH USING INBUILD FUNCTION
+
+
+#include <stdio.h>
+#include<string.h>
+int main() {
+  char str[20];
+  scanf("%s",str);
+  printf("%s",str);
+ int res=strlen(str);
+ printf("\nThe length of the string is :%d",res);
+    return 0;
+}
